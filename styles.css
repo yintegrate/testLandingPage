@@ -1,0 +1,506 @@
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p,
+li {
+  font-family: "Open Sans", sans-serif;
+}
+
+.yintegrate {
+  color: #007bff;
+  font-weight: 900;
+}
+
+.link {
+  color: #148780 !important;
+  font-weight: bold;
+}
+
+/* Laptops and desktops */
+@media only screen and (min-width: 1025px) {
+  section {
+    margin: 0 !important;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    min-height: 550px;    
+  }
+
+  #mobile-tryme {
+    display: none;
+  }
+
+  #tryMeMobile{
+    display: none;
+  }  
+
+  /* Top image */  
+.img-top{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 200px;
+}
+  
+  /* About section */
+  .card h5 {
+    font-size: 26px !important;
+  }
+
+  .exp-text {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  #about {
+    padding-top: 100px !important;
+  }
+
+  /* Products */
+  
+
+}
+
+/* Mobiles */
+@media only screen and (max-width: 1025px) {
+  section {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+  }
+
+  section .section-head {
+    font-size: 24px;
+    padding-left: 10px;
+  }
+
+  /* Top image */  
+  .top-container{
+    height: 280px;
+    padding: 0px;
+  }
+
+.img-top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  height: 280px !important;
+}
+
+  /* About Section */
+  .card h5 {
+    font-size: 16px !important;
+  }
+
+  .exp-text {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #about {
+    padding-top: 10px !important;
+  }
+
+  /* Mission-Vision */
+  .flip-card-back.vision p {
+    padding-top: 20px;
+    font-size: 12px !important;
+  }
+  /* Products */
+  
+  /* tryme */
+  #laptop-tryme{
+    display: none;
+  }
+}
+
+/* Navbar */
+.navbar{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff !important;
+}
+
+.navbar-nav{
+  padding-right: 75px;
+}
+
+.navbar-brand {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.nav-item{
+  font-size: 1.2rem;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.nav-link{
+  color: #148780 !important;   
+  font-weight: 700; 
+}
+
+.nav-link:hover{
+  border-bottom:  #148780 solid;
+}
+
+
+/* Top image */
+
+.top-container{
+  background: rgb(253,253,253);
+background: linear-gradient(90deg, rgba(253,253,253,1) 9%, rgba(213,214,216,1) 33%, rgba(213,214,216,1) 61%, rgba(253,253,253,1) 82%);
+}
+
+.img-top {
+  width: 100%;
+  height: 400px;
+  background-image: url('earth.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* Try me button */
+#tryMe{
+  position: relative;
+  background-image: linear-gradient(
+    120deg,
+    #f093fb 0%,
+    #f5576c 100%
+  );
+  border: none;
+}
+
+#tryMe:active,#tryMe:focus,#tryMe:hover{
+  border: none !important;
+  border-color: transparent  !important;
+  background-color: transparent  !important;
+  box-shadow: none !important;
+}
+
+img[usemap],
+map area[shape] {
+  outline-color: transparent;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+/* Section header */
+.section-head {
+  margin-bottom: 40px;
+  font-size: 52px;
+}
+
+/* Floating action button */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 100px;
+  z-index: 99; /* Make sure it does not overlap */
+  border: none;
+  outline: none;
+  background-image: linear-gradient(
+    120deg,
+    #f093fb 0%,
+    #f5576c 100%
+  ); /* Set a background color */
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/* Whatsapp button */
+.floating-wpp-popup {
+  z-index: 99;
+}
+
+.floating-wpp .floating-wpp-popup.active {
+  z-index: 99;
+}
+
+#WAButton {
+  z-index: 99;
+}
+
+/* Expandable Section */
+
+#home {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.card {
+  margin-bottom: 40px;
+  background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+  z-index: 1;
+}
+
+.unexpanded-card,
+.expanded-card {
+  border-radius: 30px;
+}
+
+.unexpanded-card {
+  width: 200px;
+  height: 200px !important;
+  transition: width 0.8s;
+}
+
+.unexpanded-card .card-title {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+#expanded-1 .card-title {
+  padding-right: 30px;
+  padding-left: 20px;
+}
+
+#expanded-2 .card-title {
+  padding-right: 20px;
+  padding-left: 30px;
+}
+
+.unexpanded-card .card-text {
+  display: none;
+}
+
+.expanded-card {
+  width: 75% !important;
+  height: 200px !important;
+  transition: width 0.8s;
+  text-align: center;
+}
+
+.expanded-card .card-text {
+  display: contents;
+  animation: fadein 0.8s;
+}
+
+.exp-btn.first {
+  position: absolute;
+  top: 40%;
+  right: 2px;
+  background-color: transparent;
+  border: none;
+}
+
+.exp-btn.second {
+  position: absolute;
+  top: 40%;
+  left: 2px;
+  background-color: transparent;
+  border: none;
+}
+
+.exp-btn:active,
+.exp-btn:focus,
+.exp-btn:hover {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* about */
+
+#about {
+  background-image: linear-gradient(120deg, #8fd3f4 0%, #84fab0 100%);
+}
+
+#about li {
+  line-height: 35px;
+}
+
+#about ul {
+  list-style-type: none;
+}
+
+#about ul li::before {
+  content: "\f005";
+  font-family: "Font Awesome 5 Free";
+  padding: 0 10px 0 0;
+}
+
+/* Mission Vision */
+
+#mission-vision {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.flip-card {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: transparent;
+  width: 400px;
+  height: 250px;
+  z-index: 1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  z-index: 1;
+}
+
+/* Flipping effect */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side  */
+.flip-card-front {
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  color: black;
+  border-radius: 50px;
+  z-index: 1;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  color: black;
+  border-radius: 50px;
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+
+.flip-card-back.mission {
+  padding-top: 90px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.flip-card-back.vision {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.flip-card-front h1 {
+  padding-top: 85px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.highlight {
+  color: blueviolet;
+}
+
+/* Try me modal */
+.modal-content {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+/* products */
+
+#products {
+  background-image: linear-gradient(120deg, #8fd3f4 0%, #84fab0 100%);
+}
+
+.product-card{
+  width: 400px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 50px
+}
+
+#products .card img{
+  max-width:100%;
+  border-top-right-radius:50px;
+  border-top-left-radius:50px;
+}
+
+#products .card-body{
+  padding: 0px;
+}
+
+#products .card-text{
+  text-align: justify;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#products .exp-text{
+  padding-bottom: 20px;
+}
+
+/* Modal */
+
+.modal-table {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.modal-table .tr {
+  border-top-color: transparent;
+}
+
+.yourName {
+  text-align: center;
+}
+
+/* TryMeMobile */
+
+#tryMeMobile {
+  padding-top: 20px;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+#tryMeMobile .tryMe-head {
+  font-size: 30px;
+  text-align: center;
+}
+
+#tryMeMobile .table-borderless {
+  padding-right: 40px;
+}
+
+/* Footer */
+footer {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  text-align: center;
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+}
+
+footer a {
+  color: #000000;
+  text-decoration: none;
+}
