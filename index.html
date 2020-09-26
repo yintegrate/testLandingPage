@@ -149,34 +149,26 @@
           <section id="tryMeMobile">
             <h5 class="tryMe-head">Try me now!</h5>            
             <div class="modal-body">
-              <div class="input-group mb-3">
-                <input type="text" class="form-control"  value="http://bit.ly/yintegrate" id="roomLink" readonly>
-                <div class="input-group-append">
-                  <button onclick="copyLink()" class="btn btn-primary"><i class="far fa-clipboard"></i>&nbsp Copy Link</button>
+              <form>
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter Name">
                 </div>
-              </div>
-              <div class="modal-table container">
-                <table class=" table table-borderless">
-                  <thead>
-                    <tr>
-                      <th class="table-info"scope="col"></td>
-                      <th class="table-danger" scope="col"><b>Moderator</b></td>
-                      <th class="table-success" scope="col"><b>Guest</b></td>
-                    </tr>
-                  </thead>
-                  <tbody class="table">
-                      <tr>
-                          <th class="table-info" scope="row">Password</th>
-                          <td class="table-danger">Victory12#</td>
-                          <td class="table-success">Welcome123</td>                            
-                      </tr>
-                      <tr>
-                          <th class="table-info" scope="row">Name</th>
-                          <td class="yourName table-warning" colspan="2">Your Name</td>
-                      </tr>
-                  </tbody>
-              </table>
-              </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                  <label for="phoneNum">Phone number</label>
+                  <input type="tel" id="phoneNum" class="form-control" placeholder="Enter Phone number">
+                </div>
+                <div class="form-group">
+                  <label for="country">Country</label>
+                  <input type="text" class="form-control" id="country" placeholder="Enter Country">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
             </div>
           </section>
         </div>
