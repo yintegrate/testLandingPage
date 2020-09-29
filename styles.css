@@ -25,25 +25,25 @@ li {
     padding-bottom: 100px;
     padding-left: 150px;
     padding-right: 150px;
-    min-height: 550px;    
+    min-height: 550px;
   }
 
   #mobile-tryme {
     display: none;
   }
 
-  #tryMeMobile{
+  /* #tryMeMobile{
     display: none;
-  }  
+  }   */
 
-  /* Top image */  
-.img-top{
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding-right: 200px;
-}
-  
+  /* Top image */
+  .img-top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 200px;
+  }
+
   /* About section */
   .card h5 {
     font-size: 26px !important;
@@ -59,8 +59,6 @@ li {
   }
 
   /* Products */
-  
-
 }
 
 /* Mobiles */
@@ -76,19 +74,19 @@ li {
     padding-left: 10px;
   }
 
-  /* Top image */  
-  .top-container{
+  /* Top image */
+  .top-container {
     height: 280px;
     padding: 0px;
   }
 
-.img-top{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0px;
-  height: 280px !important;
-}
+  .img-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    height: 280px !important;
+  }
 
   /* About Section */
   .card h5 {
@@ -110,21 +108,21 @@ li {
     font-size: 12px !important;
   }
   /* Products */
-  
+
   /* tryme */
-  #laptop-tryme{
+  #laptop-tryme {
     display: none;
   }
 }
 
 /* Navbar */
-.navbar{
+.navbar {
   padding-top: 0px;
   padding-bottom: 0px;
   background-color: #ffffff !important;
 }
 
-.navbar-nav{
+.navbar-nav {
   padding-right: 75px;
 }
 
@@ -133,53 +131,56 @@ li {
   padding-bottom: 0px;
 }
 
-.nav-item{
+.nav-item {
   font-size: 1.2rem;
   padding-right: 5px;
   padding-left: 5px;
 }
 
-.nav-link{
-  color: #148780 !important;   
-  font-weight: 700; 
+.nav-link {
+  color: #148780 !important;
+  font-weight: 700;
 }
 
-.nav-link:hover{
-  border-bottom:  #148780 solid;
+.nav-link:hover {
+  border-bottom: #148780 solid;
 }
-
 
 /* Top image */
 
-.top-container{
-  background: rgb(253,253,253);
-background: linear-gradient(90deg, rgba(253,253,253,1) 9%, rgba(213,214,216,1) 33%, rgba(213,214,216,1) 61%, rgba(253,253,253,1) 82%);
+.top-container {
+  background: rgb(253, 253, 253);
+  background: linear-gradient(
+    90deg,
+    rgba(253, 253, 253, 1) 9%,
+    rgba(213, 214, 216, 1) 33%,
+    rgba(213, 214, 216, 1) 61%,
+    rgba(253, 253, 253, 1) 82%
+  );
 }
 
 .img-top {
   width: 100%;
   height: 400px;
-  background-image: url('earth.jpg');
+  background-image: url("earth.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
 /* Try me button */
-#tryMe{
+#tryMe {
   position: relative;
-  background-image: linear-gradient(
-    120deg,
-    #f093fb 0%,
-    #f5576c 100%
-  );
+  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
   border: none;
 }
 
-#tryMe:active,#tryMe:focus,#tryMe:hover{
+#tryMe:active,
+#tryMe:focus,
+#tryMe:hover {
   border: none !important;
-  border-color: transparent  !important;
-  background-color: transparent  !important;
+  border-color: transparent !important;
+  background-color: transparent !important;
   box-shadow: none !important;
 }
 
@@ -434,30 +435,30 @@ map area[shape] {
   background-image: linear-gradient(120deg, #8fd3f4 0%, #84fab0 100%);
 }
 
-.product-card{
+.product-card {
   width: 400px;
   margin-left: 25px;
   margin-right: 25px;
-  border-radius: 50px
+  border-radius: 50px;
 }
 
-#products .card img{
-  max-width:100%;
-  border-top-right-radius:50px;
-  border-top-left-radius:50px;
+#products .card img {
+  max-width: 100%;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
 }
 
-#products .card-body{
+#products .card-body {
   padding: 0px;
 }
 
-#products .card-text{
+#products .card-text {
   text-align: justify;
   padding-bottom: 10px;
   padding-top: 10px;
 }
 
-#products .exp-text{
+#products .exp-text {
   padding-bottom: 20px;
 }
 
@@ -503,4 +504,10 @@ footer {
 footer a {
   color: #000000;
   text-decoration: none;
+}
+
+/* Try me section */
+.tryme-section{
+  
+  align-content: center;
 }
