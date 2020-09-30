@@ -58,9 +58,9 @@
     </nav>
    <div class="top-container d-flex justify-content-center">
       <div class="img-top">
-        <!-- <a id="tryMe" href="" data-reveal-id="#tryMeModal" data-toggle="modal" data-target="#tryMeModal"
-          class="btn btn-primary btn-lg">Try me now!</a> -->
-        <a id="tryMe" href="#tryMeMobile"  class="btn btn-primary btn-lg" >Try me now!</a>
+        <a id="tryMe" href="" data-reveal-id="#tryMeModal" data-toggle="modal" data-target="#tryMeModal"
+          class="btn btn-primary btn-lg">Try me now!</a>
+        <!-- <a id="tryMe" href="#tryMeMobile"  class="btn btn-primary btn-lg" >Try me now!</a> -->
       </div>
    </div>
     <div id="WAButton"></div>
@@ -147,38 +147,49 @@
             </div>
            </div>
           </section>
-
           <section id="tryMeMobile">
-            <h5 class="tryMe-head">Try me now!</h5>            
-            <div class="text-center tryme-section modal-body">
-              <div class="input-group mb-3">
-                <input type="text" class="form-control"  value="http://bit.ly/yintegrate" id="roomLink" readonly>
-                <div class="input-group-append">
-                  <button onclick="copyLink()" class="btn btn-primary"><i class="far fa-clipboard"></i>&nbsp Copy Link</button>
+            <h5 class="tryMe-head tryme-title">Try me now!</h5>
+            <div class="alert alert-danger tryme-alert" role="alert">
+              This link will redirect you to our demo product which is open to everybody.<br>
+              To get an exclusive demo trial with features relevant to your organisation, write us a mail or drop us a text on WhatsApp.
+              <div class=" d-flex justify-content-center">
+                <a class="tryme-btn btn btn-outline-primary" href = "mailto:contact@yintegrate.com" role="button">Mail &nbsp <i class="fas fa-envelope"></i></a>
+                <a class="tryme-btn btn btn-outline-success" href="https://wa.me/919742666651" role="button">WhatsApp &nbsp <i class="fab fa-whatsapp"></i></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-2"></div>            
+              <div class="text-center col-lg-8 ">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control"  value="http://bit.ly/yintegrate" id="roomLink" readonly>
+                  <div class="input-group-append">
+                    <button onclick="copyLink()" class="btn btn-primary"><i class="far fa-clipboard"></i>&nbsp Copy Link</button>
+                  </div>
+                </div>
+                <div class="modal-table container">
+                  <table class=" table table-borderless">
+                    <thead>
+                      <tr>
+                        <th class="table-info"scope="col"></td>
+                        <th class="table-danger" scope="col"><b>Moderator</b></td>
+                        <th class="table-success" scope="col"><b>Guest</b></td>
+                      </tr>
+                    </thead>
+                    <tbody class="table">
+                        <tr>
+                            <th class="table-info" scope="row">Password</th>
+                            <td class="table-danger">Victory12#</td>
+                            <td class="table-success">Welcome123</td>                            
+                        </tr>
+                        <tr>
+                            <th class="table-info" scope="row">Name</th>
+                            <td class="yourName table-warning" colspan="2">Your Name</td>
+                        </tr>
+                    </tbody>
+                </table>
                 </div>
               </div>
-              <div class="modal-table container">
-                <table class=" table table-borderless">
-                  <thead>
-                    <tr>
-                      <th class="table-info"scope="col"></td>
-                      <th class="table-danger" scope="col"><b>Moderator</b></td>
-                      <th class="table-success" scope="col"><b>Guest</b></td>
-                    </tr>
-                  </thead>
-                  <tbody class="table">
-                      <tr>
-                          <th class="table-info" scope="row">Password</th>
-                          <td class="table-danger">Victory12#</td>
-                          <td class="table-success">Welcome123</td>                            
-                      </tr>
-                      <tr>
-                          <th class="table-info" scope="row">Name</th>
-                          <td class="yourName table-warning" colspan="2">Your Name</td>
-                      </tr>
-                  </tbody>
-              </table>
-              </div>
+              <div class="col-lg-2"></div>
             </div>
           </section>
         </div>
@@ -194,26 +205,42 @@
                 </button>
               </div>
               <div class="modal-body">
-                <form>
-                  <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter Name">
+                <div class="alert alert-danger tryme-alert" role="alert">
+                  This link will redirect you to our demo product which is open to everybody.<br>
+                  To get an exclusive demo trial with features relevant to your organisation, write us a mail or drop us a text on WhatsApp.
+                  <div class=" d-flex justify-content-center">
+                    <a class="tryme-btn btn btn-outline-primary" href="mailto:contact@yintegrate.com" role="button">Mail &nbsp <i class="fas fa-envelope"></i></a>
+                    <a class="tryme-btn btn btn-outline-success" href="https://wa.me/919742666651" role="button">WhatsApp &nbsp<i class="fab fa-whatsapp"></i> </i></a>
                   </div>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                      placeholder="Enter email">
-                    </div>
-                  <div class="form-group">
-                    <label for="phoneNum">Phone number</label>
-                    <input type="tel" id="phoneNum" class="form-control"  placeholder="Enter Phone number">
+                </div>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control"  value="http://bit.ly/yintegrate" id="roomLink" readonly>
+                  <div class="input-group-append">
+                    <button onclick="copyLink()" class="btn btn-primary"><i class="far fa-clipboard"></i>&nbsp Copy Link</button>
                   </div>
-                  <div class="form-group">
-                    <label for="country">Country</label>
-                    <input type="text" class="form-control" id="country"  placeholder="Enter Country">
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+                </div>
+                <div class="modal-table container">
+                  <table class=" table table-borderless">
+                    <thead>
+                      <tr>
+                        <th class="table-info"scope="col"></td>
+                        <th class="table-danger" scope="col"><b>Moderator</b></td>
+                        <th class="table-success" scope="col"><b>Guest</b></td>
+                      </tr>
+                    </thead>
+                    <tbody class="table">
+                        <tr>
+                            <th class="table-info" scope="row">Password</th>
+                            <td class="table-danger">Victory12#</td>
+                            <td class="table-success">Welcome123</td>                            
+                        </tr>
+                        <tr>
+                            <th class="table-info" scope="row">Name</th>
+                            <td class="yourName table-warning" colspan="2">Your Name</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
               </div>
             </div>
           </div>
@@ -299,6 +326,7 @@ $(function() {
     buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />', //Button Image
     position: "right"    
   });
+  
 });
 </script>
 

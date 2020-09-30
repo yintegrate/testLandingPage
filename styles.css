@@ -32,9 +32,9 @@ li {
     display: none;
   }
 
-  /* #tryMeMobile{
-    display: none;
-  }   */
+  #tryMeMobile  {
+    display: none !important;
+  }  
 
   /* Top image */
   .img-top {
@@ -507,7 +507,22 @@ footer a {
 }
 
 /* Try me section */
-.tryme-section{
-  
-  align-content: center;
+.tryme-title{
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.tryme-btn{
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.modal-table{
+  padding-bottom: 5px !important;
+  padding-top: 5px !important;
+}
+
+.tryme-alert{
+  margin-bottom: 25px !important;
 }
