@@ -533,3 +533,9 @@ footer a {
   font-size: 1.5rem;
   align-items: center;
 }
+
+.input-group{
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 90%;
+}
