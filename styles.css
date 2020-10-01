@@ -10,6 +10,7 @@ li {
 .yintegrate {
   color: #007bff;
   font-weight: 900;
+  font-size: 1.4rem;
 }
 
 .link {
@@ -506,7 +507,7 @@ footer a {
   text-decoration: none;
 }
 
-/* Try me section */
+/* Try me section (Modal)*/
 .tryme-title{
   padding-bottom: 25px;
   padding-top: 25px;
@@ -534,7 +535,7 @@ footer a {
   align-items: center;
 }
 
-.input-group{
+.modal .input-group{
   margin-right: 20px;
   margin-left: 20px;
   width: 90%;
