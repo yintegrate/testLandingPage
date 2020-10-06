@@ -13,6 +13,12 @@ li {
   font-size: 1.4rem;
 }
 
+.yourOwn {
+  color: #fe2712;
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+
 .link {
   color: #148780 !important;
   font-weight: bold;
@@ -33,9 +39,9 @@ li {
     display: none;
   }
 
-  #tryMeMobile  {
+  #tryMeMobile {
     display: none !important;
-  }  
+  }
 
   /* Top image */
   .img-top {
@@ -508,34 +514,34 @@ footer a {
 }
 
 /* Try me section (Modal)*/
-.tryme-title{
+.tryme-title {
   padding-bottom: 25px;
   padding-top: 25px;
   text-align: center;
 }
 
-.tryme-btn{
+.tryme-btn {
   margin-top: 10px;
   margin-right: 20px;
   margin-left: 20px;
 }
 
-.modal-table{
+.modal-table {
   padding-bottom: 5px !important;
   padding-top: 5px !important;
 }
 
-.tryme-alert{
+.tryme-alert {
   margin-bottom: 25px !important;
 }
 
-.modal-title{
+.modal-title {
   text-align: center;
   font-size: 1.5rem;
   align-items: center;
 }
 
-.modal .input-group{
+.modal .input-group {
   margin-right: 20px;
   margin-left: 20px;
   width: 90%;
